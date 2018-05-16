@@ -19,12 +19,6 @@ android {
     }
 }
 
-repositories {
-    maven {
-        url 'https://dl.bintray.com/vaghelamithun/maven/'
-    }
-}
-
 dependencies {
     implementation fileTree(include: ['*.jar'], dir: 'libs')
     implementation "com.android.support:appcompat-v7:${rootProject.supportVersion}"
