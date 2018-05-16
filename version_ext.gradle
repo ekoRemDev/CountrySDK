@@ -1,0 +1,38 @@
+ext {
+    compileSdkVersion = 26
+    buildToolsVersion = "26.0.2"
+
+    minSdkVersion = 14
+    targetSdkVersion = 28
+
+    versionCode = 1
+    versionName = "1.0"
+
+    sourceCompatibility = JavaVersion.VERSION_1_8
+    targetCompatibility = JavaVersion.VERSION_1_8
+
+    lintAbortOnError = false
+
+    supportVersion = '26.1.0'
+
+    crashlyticsVersion = '2.2.2'
+
+    staggeredTextGridView = '1.0.1'
+
+    //Glide Version
+    glideVersion = '4.3.1'
+
+    //GSON Version
+    gsonVersion = '2.6.2'
+
+    clansFabMenuVersion = '1.6.4'
+
+    //retrofit Version
+    retrofitVersion = '2.2.0'
+
+    //okHttp Version
+    okHttpVersion = '3.4.1'
+
+    //Google lib Version
+    googleVersion = '11.6.0'
+}

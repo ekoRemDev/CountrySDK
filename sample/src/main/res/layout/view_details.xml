@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/scroll"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipToPadding="false"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:id="@+id/rlCountryCode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/activity_horizontal_margin"
+            android:layout_marginTop="@dimen/activity_horizontal_margin"
+            android:background="@color/white"
+            android:padding="@dimen/activity_horizontal_margin">
+
+            <TextView
+                android:id="@+id/txtLabelCountryCode"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:text="@string/lb_country_code"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/txtLabelCountryCodeValue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_toEndOf="@id/txtLabelCountryCode"
+                android:layout_toRightOf="@id/txtLabelCountryCode"
+                android:gravity="right|end"
+                android:text="@string/lb_country_code"
+                android:textStyle="bold"
+                android:textColor="@color/secondaryColor" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rlCurrency"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:padding="@dimen/activity_horizontal_margin">
+
+            <TextView
+                android:id="@+id/txtLabelCurrency"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:text="@string/lb_currency"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/txtLabelCurrencyValue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_toEndOf="@id/txtLabelCurrency"
+                android:layout_toRightOf="@id/txtLabelCurrency"
+                android:gravity="right|end"
+                android:text="@string/lb_country_code"
+                android:textStyle="bold"
+                android:textColor="@color/secondaryColor" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rlDialCode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/activity_horizontal_margin"
+            android:background="@color/white"
+            android:padding="@dimen/activity_horizontal_margin">
+
+            <TextView
+                android:id="@+id/txtLabelDialCode"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:text="@string/lb_dial_code"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/txtLabelDialCodeValue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_toEndOf="@id/txtLabelDialCode"
+                android:layout_toRightOf="@id/txtLabelDialCode"
+                android:gravity="right|end"
+                android:text="@string/lb_country_code"
+                android:textStyle="bold"
+                android:textColor="@color/secondaryColor" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rlCapital"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/activity_horizontal_margin"
+            android:background="@color/white"
+            android:padding="@dimen/activity_horizontal_margin">
+
+            <TextView
+                android:id="@+id/txtLabelCapital"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:text="@string/lb_capital"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/txtLabelCapitalValue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_toEndOf="@id/txtLabelCapital"
+                android:layout_toRightOf="@id/txtLabelCapital"
+                android:gravity="right|end"
+                android:text="@string/lb_country_code"
+                android:textStyle="bold"
+                android:textColor="@color/secondaryColor" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rlAreaInSqKm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/activity_horizontal_margin"
+            android:layout_marginTop="@dimen/activity_horizontal_margin"
+            android:background="@color/white"
+            android:padding="@dimen/activity_horizontal_margin">
+
+            <TextView
+                android:id="@+id/txtLabelAreaInSqKm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:text="@string/lb_area_in_sqkm"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/txtLabelAreaInSqKmValue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_toEndOf="@id/txtLabelAreaInSqKm"
+                android:layout_toRightOf="@id/txtLabelAreaInSqKm"
+                android:gravity="right|end"
+                android:text="@string/lb_country_code"
+                android:textStyle="bold"
+                android:textColor="@color/secondaryColor" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rlLanguages"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:padding="@dimen/activity_horizontal_margin">
+
+            <TextView
+                android:id="@+id/txtLabelLanguages"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:text="@string/lb_languages"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/txtLabelLanguagesValue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_toEndOf="@id/txtLabelLanguages"
+                android:layout_toRightOf="@id/txtLabelLanguages"
+                android:gravity="right|end"
+                android:text="@string/lb_country_code"
+                android:textStyle="bold"
+                android:textColor="@color/secondaryColor" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rlPopulation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/activity_horizontal_margin"
+            android:background="@color/white"
+            android:padding="@dimen/activity_horizontal_margin">
+
+            <TextView
+                android:id="@+id/txtLabelPopulation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:text="@string/lb_population"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/txtLabelPopulationValue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_toEndOf="@id/txtLabelPopulation"
+                android:layout_toRightOf="@id/txtLabelPopulation"
+                android:gravity="right|end"
+                android:text="@string/lb_country_code"
+                android:textStyle="bold"
+                android:textColor="@color/secondaryColor" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rlContinentName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/activity_horizontal_margin"
+            android:background="@color/white"
+            android:padding="@dimen/activity_horizontal_margin">
+
+            <TextView
+                android:id="@+id/txtLabelContinentName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:text="@string/lb_continent_name"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/txtLabelContinentNameValue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_toEndOf="@id/txtLabelContinentName"
+                android:layout_toRightOf="@id/txtLabelContinentName"
+                android:gravity="right|end"
+                android:text="@string/lb_country_code"
+                android:textStyle="bold"
+                android:textColor="@color/secondaryColor" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rlContinent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/activity_horizontal_margin"
+            android:background="@color/white"
+            android:padding="@dimen/activity_horizontal_margin">
+
+            <TextView
+                android:id="@+id/txtLabelContinent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:text="@string/lb_continent"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/txtLabelContinentValue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_toEndOf="@id/txtLabelContinent"
+                android:layout_toRightOf="@id/txtLabelContinent"
+                android:gravity="right|end"
+                android:text="@string/lb_country_code"
+                android:textStyle="bold"
+                android:textColor="@color/secondaryColor" />
+        </RelativeLayout>
+    </LinearLayout>
+
+
+</android.support.v4.widget.NestedScrollView>
