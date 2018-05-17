@@ -50,12 +50,12 @@ The library is currently configured to be built via Gradle only. It has the foll
 For more detailed code example to use the library, Please refere the `/sample` app.
 
 After initialize sdk you can direcly call ```getAllCountry``` method of ```CountryUtils``` class in any class or activity.
-#### Listing
+#### To Listing
 ```
 ArrayList<Country> countries = CountryUtils.getAllCountry(this);
 
 ```
-#### Dialog
+#### To Dialog
 ```
 CountryDialog dialog = new CountryDialog();
 dialog.setOnCountryClickListener(countryClickListener);
