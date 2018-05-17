@@ -41,7 +41,7 @@ public class SampleApp extends Application {
 
 The library is currently configured to be built via Gradle only. It has the following dependencies:
 
-* Android Gradle plugin 2.1.0 - com.android.tools.build:gradle:3.0.1
+* Android Gradle plugin 3.0.1 - com.android.tools.build:gradle:3.0.1
 * Android Support appcompt-v7 - com.android.support:appcompat-v7:26.1.0
 * Compiled SDK Version        - Oreo-26
 * Supported Version           - >= 2.1
