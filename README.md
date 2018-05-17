@@ -4,7 +4,7 @@ Include countries related data like, flag, name, code, dial code, population whe
 
 Country List             |  Country Grid              | Country Dialog        | Country Details   
 :-------------------------:|:-------------------------:|:----------------------:|:---------------------:
-<img src="https://github.com/riontech-xten/CountrySDK/blob/master/list.png" height="400" alt="Country List" style="float:left"/>  |  <img src="https://github.com/riontech-xten/CountrySDK/blob/master/grid.png" height="400" alt="Country Grid" style="float:left"/>  |  <img src="https://github.com/riontech-xten/CountrySDK/blob/master/dialog.png" height="400" alt="Country Dialog" style="float:left"/>  |  <img src="https://github.com/riontech-xten/CountrySDK/blob/master/details.png" height="400" alt="Country Details" style="float:left"/>
+<img src="https://github.com/riontech-xten/CountrySDK/blob/master/list.png" height="350" alt="Country List" style="float:left"/>  |  <img src="https://github.com/riontech-xten/CountrySDK/blob/master/grid.png" height="350" alt="Country Grid" style="float:left"/>  |  <img src="https://github.com/riontech-xten/CountrySDK/blob/master/dialog.png" height="350" alt="Country Dialog" style="float:left"/>  |  <img src="https://github.com/riontech-xten/CountrySDK/blob/master/details.png" height="350" alt="Country Details" style="float:left"/>
 
 
 
