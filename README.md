@@ -47,7 +47,7 @@ The library is currently configured to be built via Gradle only. It has the foll
 * Supported Version           - >= 2.1
 
 ### How to use?
-For more detailed code example to use the library, Please refere the `/sample` app.
+For more detailed code example to use the library, Please refere the `/sample` app or you can download sample to click [here](https://play.google.com/store/apps/details?id=com.xtensolution.countrysdksample)
 
 After initialize sdk you can direcly call ```getAllCountry``` method of ```CountryUtils``` class in any class or activity.
 #### To Listing
